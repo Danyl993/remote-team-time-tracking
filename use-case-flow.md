@@ -6,21 +6,21 @@
 Remote Developer
 
 ### Preconditions
-- Developer is logged into the system.
-- Developer has entered valid time against project tasks.
-- Timesheet is in Draft status.
-- Daily working-hour limit has not been exceeded.
+- Developer remains signed in to the system.
+- Developer has recorded correct hours for project tasks.
+- Timesheet currently sits in Draft status.
+- The daily working-hour cap has not been breached.
 
 ### Postconditions
-- Timesheet is successfully submitted.
-- Timesheet status changes from Draft to Pending Approval.
-- Engineering Manager can review the submitted timesheet.
+- Timesheet gets submitted without issue.
+- Timesheet status flips from Draft to Pending Approval.
+- Engineering Manager may now assess the submitted timesheet.
 
 ### Main Success Scenario
-1. Developer opens the timesheet page.
-2. Developer selects the required date.
-3. Developer enters the hours worked.
-4. Developer associates the hours with a project task.
+1. Developer launches the timesheet page.
+2. Developer picks the needed date.
+3. Developer inputs the hours worked.
+4. Developer links those hours to a project task.
 5. System validates the entered hours.
 6. System checks that the daily limit has not been exceeded.
 7. Developer clicks Submit.
